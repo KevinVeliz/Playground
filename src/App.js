@@ -18,6 +18,7 @@ function App() {
           <Route path="/" element={<HomePage/>} />
           <Route path="/imc" element={<IMC/>} />
           <Route path="/age" element={<Page/>} />
+          <Route path="/reloj" element={<Reloj/>}/>
 
         </Routes>
       </Router>
