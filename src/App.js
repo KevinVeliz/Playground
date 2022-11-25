@@ -17,6 +17,7 @@ function App() {
         <Routes>
           <Route path="/" element={<HomePage/>} />
           <Route path="/imc" element={<IMC/>} />
+          <Route path="/age" element={<Page/>} />
 
         </Routes>
       </Router>
