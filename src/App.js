@@ -16,6 +16,7 @@ function App() {
       <Router>
         <Routes>
           <Route path="/" element={<HomePage/>} />
+          <Route path="/imc" element={<IMC/>} />
 
         </Routes>
       </Router>
