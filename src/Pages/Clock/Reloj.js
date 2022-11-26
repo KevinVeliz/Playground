@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import NavbarPage from "../../Components/Nabvar";
+import FooterPage from "../Footer";
 
 const Reloj = () => {
 	const [hours, setHours] = useState();
@@ -74,7 +75,9 @@ const Reloj = () => {
 					<div className="number number11">11</div>
 					<div className="number number12">12</div>
 				</div>
+
 			</div>
+			<FooterPage/>
 		</>
 	);
 };
