@@ -43,7 +43,7 @@ const NavbarPage = () => {
                         </li>
                         <li>
                             <NavLink className={({ isActive }) =>
-                                isActive ? activeClass : undefined} id="Navbar-css" to='/about'>Conctat</NavLink>
+                                isActive ? activeClass : undefined} id="Navbar-css" to='/contact'>Conctat</NavLink>
 
                         </li>
                     </ul>
