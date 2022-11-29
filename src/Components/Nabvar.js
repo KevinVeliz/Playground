@@ -18,7 +18,6 @@ const NavbarPage = () => {
                 <nav className='nav-links'>
                     
                     <ul>
-
                         <li>
                             <NavLink className={({ isActive }) =>
                                 isActive ? activeClass : undefined
