@@ -4,7 +4,7 @@
 
 > Primer proyecto
 
-<img src="./src/assets/Imagen1.png" height="300px"/>
+<img src="./src/assets/playground.png" height="300px"/>
 
 ## Built with 
 

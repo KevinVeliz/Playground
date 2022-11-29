@@ -84,29 +84,27 @@
 }
 
 
-.nav-container ul li:nth-child(1) {
-	float: left;
+ ul li:nth-child(6) {
+	float: right;
 }
-.nav-container ul li:nth-child(2) {
-	float: left;
+ ul li:nth-child(4) {
+	float: right;
 }
-.nav-container ul li:nth-child(3) {
-	float: left;
-}
-
-.nav-container ul li:nth-child(5) {
+ ul li:nth-child(5) {
 	float: right;
 }
 
-.nav-container ul li:nth-child(6) {
-	float: right;
+ ul li:nth-child(3) {
+	float: left;
 }
 
-.nav-container ul li:nth-child(4) {
-	float: right;
+ ul li:nth-child(2) {
+	float: left;
 }
 
-
+ ul li:nth-child(1) {
+	float: left;
+}
 
 .nav-item{
     margin: 0px 20px;
