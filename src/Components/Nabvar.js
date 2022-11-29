@@ -1,24 +1,21 @@
-import Container from 'react-bootstrap/Container';
-import Nav from 'react-bootstrap/Nav';
-import Navbar from 'react-bootstrap/Navbar';
 import { NavLink } from 'react-router-dom';
 import '../Styles/Nav.css'
 import image from '../IMG/image1.png'
-import FooterPage from '../Pages/Footer';
+import { useState } from 'react';
 
 const NavbarPage = () => {
+    const [click, setClick] = useState(false);
+    const handleClick = () => setClick(!click);
     let activeClass = 'active';
     return (
         <>
             <div>
                 <div className='logo'>
-                    <img src={image} alt='logo'/>
+                    <img src={image} alt='logo' className='logo-img'/>
                     <div className='text'><p>KrugerStar</p></div>
                 </div>
-                <nav className='nav-links'>
-                    
-                    <ul>
-
+                <nav className="nav-links">
+                    <ul className={click ? "nav-menu active" : "nav-menu"}>
                         <li>
                             <NavLink className={({ isActive }) =>
                                 isActive ? activeClass : undefined
@@ -48,10 +45,13 @@ const NavbarPage = () => {
                         </li>
                     </ul>
                 </nav>
+                <div className="nav-icon" onClick={handleClick}>
+                    <i className={click ? "fas fa-times" : "fas fa-bars"}></i>
+                </div>
                 <div className='line'></div>
 
             </div>
-             
+
 
         </>
     );
