@@ -23,26 +23,8 @@
 	margin: 0px auto;
 }
 
-@media (min-width: 375px) {
-	.text-home {
-		font-family: "Montserrat";
-		font-size: 40px;
-		line-height: 72px;
-		align-items: center;
-		letter-spacing: -0.015em;
-		margin-top: 25%;
-	}
 
-	.text-home-p {
-		font-size: 20px;
-		letter-spacing: -0.015em;
-		text-align: center;
-		margin-top: 8%;
-		margin-bottom: -10%;
-	}
-}
-
-@media (min-width: 414px) {
+@media screen and (max-width: 980px) {
 	.text-home {
 		font-family: "Montserrat";
 		font-size: 40px;
@@ -66,4 +48,6 @@
         margin-bottom: -20%;
 	}
 
+	
 }
+

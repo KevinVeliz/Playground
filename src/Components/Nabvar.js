@@ -6,52 +6,90 @@ import { useState } from 'react';
 const NavbarPage = () => {
     const [click, setClick] = useState(false);
     const handleClick = () => setClick(!click);
-    let activeClass = 'active';
+
     return (
         <>
-            <div>
-                <div className='logo'>
-                    <img src={image} alt='logo' className='logo-img'/>
-                    <div className='text'><p>KrugerStar</p></div>
-                </div>
-                <nav className='nav-links'>
-                <ul className={click ? "nav-menu active" : "nav-menu"}>
-                        <li>
-                            <NavLink className={({ isActive }) =>
-                                isActive ? activeClass : undefined
-                            } id="Navbar-css" to='/'>Home</NavLink>
+            <nav className="navbar">
+            <div className='logo'>
+                        <img src={image} alt='logo' className='logo-img' />
+                        <div className='text'><p>KrugerStar</p></div>
+                    </div>
+                <div className="nav-container">
+                   
+                    <ul className={click ? "nav-menu active" : "nav-menu"}>
+                        <li className="nav-item">
+                            <NavLink
+                                exact
+                                to="/"
+                                activeClassName="active"
+                                className="nav-links"
+                                onClick={handleClick}
+                            >
+                                Home
+                            </NavLink>
                         </li>
-                        <li>
-                            <NavLink className={({ isActive }) =>
-                                isActive ? activeClass : undefined} id="Navbar-css" to='/imc'>IMC Calculator</NavLink>
+                        <li className="nav-item">
+                            <NavLink
+                                exact
+                                to='/imc'
+                                activeClassName="active"
+                                className="nav-links"
+                                onClick={handleClick}
+                            >
+                                IMC Calculator
+                            </NavLink>
                         </li>
-                        <li>
-                            <NavLink className={({ isActive }) =>
-                                isActive ? activeClass : undefined} id="Navbar-css" to='/age'>Age Calculator</NavLink>
+                        <li className="nav-item">
+                            <NavLink
+                                exact
+                                to="/age"
+                                activeClassName="active"
+                                className="nav-links"
+                                onClick={handleClick}
+                            >
+                                Age Calculator
+                            </NavLink>
                         </li>
-                        <li>
-                            <NavLink className={({ isActive }) =>
-                                isActive ? activeClass : undefined} id="Navbar-css" to='/reloj'>My Clock</NavLink>
+                        <li className="nav-item">
+                            <NavLink
+                                exact
+                                to='/reloj'
+                                activeClassName="active"
+                                className="nav-links"
+                                onClick={handleClick}
+                            >
+                                My Clock
+                            </NavLink>
                         </li>
-                        <li>
-                            <NavLink className={({ isActive }) =>
-                                isActive ? activeClass : undefined} id="Navbar-css" to='/about'>About me</NavLink>
-
+                        <li className="nav-item">
+                            <NavLink
+                                exact
+                                to='/about'
+                                activeClassName="active"
+                                className="nav-links"
+                                onClick={handleClick}
+                            >
+                                About me
+                            </NavLink>
                         </li>
-                        <li>
-                            <NavLink className={({ isActive }) =>
-                                isActive ? activeClass : undefined} id="Navbar-css" to='/contact'>Contact</NavLink>
-
+                        <li className="nav-item">
+                            <NavLink
+                                exact
+                                to='/contact'
+                                activeClassName="active"
+                                className="nav-links"
+                                onClick={handleClick}
+                            >
+                                Conctact
+                            </NavLink>
                         </li>
                     </ul>
-                </nav>
-                <div className="nav-icon" onClick={handleClick}>
-                    <i className={click ? "fas fa-times" : "fas fa-bars"}></i>
+                    <div className="nav-icon" onClick={handleClick}>
+                        <i className={click ? "fas fa-times" : "fas fa-bars"}></i>
+                    </div>
                 </div>
                 <div className='line'></div>
-            </div>
-
-
+            </nav>
         </>
     );
 }

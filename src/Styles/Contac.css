@@ -69,7 +69,226 @@
 	margin-left: 70px;
 }
 
-@media (min-width: 375px) {
+
+
+
+@media screen and (max-width: 1250px) {
+	.box-contact {
+		height: 420px;
+		border: 1px solid rgba(0, 0, 0, 0.5);
+		display: block;
+		width: 45%;
+		font-family: "Montserrat", sans-serif;
+		margin-bottom: -10%;
+	}
+
+	.text-css-general {
+		font-family: "Montserrat";
+		font-style: normal;
+		text-align: center;
+		letter-spacing: -0.015em;
+		padding: 20px;
+		margin-top: 25px;
+	}
+
+	.text-box-css {
+		display: flex;
+		align-items: flex-start;
+		margin-top: 30px;
+		margin-left: 70px;
+		margin-bottom: 20px;
+		font-style: normal;
+		font-weight: 700;
+	}
+
+	.Firstname-css {
+		padding: 5px 10px;
+		width: 240px;
+		height: 40px;
+		margin-right: 1%;
+	}
+
+	.Lastname-css {
+		padding: 5px 10px;
+		width: 240px;
+		height: 40px;
+		margin-left: 0%;
+		margin-top: 5%;
+	}
+
+	.Email-css {
+		padding: 5px 10px;
+		width: 485px;
+		height: 40px;
+		margin-top: 5%;
+	}
+
+	.Text-css {
+		padding: 5px 10px;
+		width: 485px;
+		height: 97px;
+		margin-top: 5%;
+	}
+
+	.button-css {
+		background: #18a0fb;
+		border-radius: 6px;
+		color: white;
+		text-decoration: none;
+		border: none;
+		width: 130px;
+		height: 40px;
+		display: block;
+		margin: 20px auto;
+	}
+	
+}
+
+@media (981px <= width <=1080px) {
+
+	.box-contact {
+		height: 450px;
+		border: 1px solid rgba(0, 0, 0, 0.5);
+		display: block;
+		width: 45%;
+		font-family: "Montserrat", sans-serif;
+		margin-bottom: -10%;
+	}
+
+	.text-css-general {
+		font-family: "Montserrat";
+		font-style: normal;
+		text-align: center;
+		letter-spacing: -0.015em;
+		padding: 20px;
+		margin-top: 25px;
+	}
+
+	.text-box-css {
+		display: flex;
+		align-items: flex-start;
+		margin-top: 30px;
+		margin-left: 70px;
+		margin-bottom: 20px;
+		font-style: normal;
+		font-weight: 700;
+	}
+
+	.Firstname-css {
+		padding: 5px 10px;
+		width: 450px;
+		height: 40px;
+		margin-right: 1%;
+	}
+
+	.Lastname-css {
+		padding: 5px 10px;
+		width: 450px;
+		height: 40px;
+		margin-left: 0%;
+		margin-top: 5%;
+	}
+
+	.Email-css {
+		padding: 5px 10px;
+		width: 450px;
+		height: 40px;
+		margin-top: 5%;
+	}
+
+	.Text-css {
+		padding: 5px 10px;
+		width: 450px;
+		height: 97px;
+		margin-top: 5%;
+	}
+
+	.button-css {
+		background: #18a0fb;
+		border-radius: 6px;
+		color: white;
+		text-decoration: none;
+		border: none;
+		width: 130px;
+		height: 40px;
+		display: block;
+		margin: 20px auto;
+	}
+	
+}
+
+@media screen and (max-width: 980px) {
+	.box-contact {
+		height: 450px;
+		border: 1px solid rgba(0, 0, 0, 0.5);
+		display: block;
+		width: 40%;
+		font-family: "Montserrat", sans-serif;
+		margin-bottom: -30%;
+	}
+
+	.text-css-general {
+		font-family: "Montserrat";
+		font-style: normal;
+		text-align: center;
+		letter-spacing: -0.015em;
+		padding: 20px;
+		margin-top: 25px;
+	}
+
+	.text-box-css {
+		display: flex;
+		align-items: flex-start;
+		margin-top: 30px;
+		margin-left: 70px;
+		margin-bottom: 50px;
+		font-style: normal;
+		font-weight: 700;
+	}
+
+	.Firstname-css {
+		padding: 5px 10px;
+		width: 240px;
+		height: 40px;
+	}
+
+	.Lastname-css {
+		padding: 5px 10px;
+		width: 240px;
+		height: 40px;
+		margin-left: 0%;
+		margin-top: 5%;
+	}
+
+	.Email-css {
+		padding: 5px 10px;
+		width: 240px;
+		height: 40px;
+		margin-top: 5%;
+	}
+
+	.Text-css {
+		padding: 5px 10px;
+		width: 240px;
+		height: 97px;
+		margin-top: 5%;
+	}
+
+	.button-css {
+		background: #18a0fb;
+		border-radius: 6px;
+		color: white;
+		text-decoration: none;
+		border: none;
+		width: 130px;
+		height: 40px;
+		display: block;
+		margin: 20px auto;
+	}
+}
+
+
+@media screen and (max-width: 600px) {
 	.box-contact {
 		width: 100px;
 		height: 450px;

@@ -1,4 +1,4 @@
-<img src="./src/assets/image-removebg-preview%20(2).png" height="80px"/>
+<img src="./src/assets/image-removebg-preview%20(2).png" height="50px"/>
 
 # Kruger Star PlayGround
 
