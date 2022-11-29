@@ -14,7 +14,7 @@ const NavbarPage = () => {
                     <img src={image} alt='logo' className='logo-img'/>
                     <div className='text'><p>KrugerStar</p></div>
                 </div>
-    
+                <nav className='nav-links'>
                 <ul className={click ? "nav-menu active" : "nav-menu"}>
                         <li>
                             <NavLink className={({ isActive }) =>
