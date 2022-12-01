@@ -15,7 +15,7 @@
 
 ## Live Demo
 
-[live demo link](https://playground-gilt-three.vercel.app/)
+[live demo link](https://krugerstart.vercel.app/)
 
 ## Run it
  ### Setup
