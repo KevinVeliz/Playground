@@ -8,6 +8,7 @@ import IMC from './Pages/IMC/IMC';
 import Page from './Pages/AgeCalculator/Page';
 import Reloj from './Pages/Clock/Reloj';
 import AboutMePage from './Pages/AboutMe';
+import ContactPage from './Pages/Contact';
 
 function App() {
   return (
@@ -16,7 +17,11 @@ function App() {
       <Router>
         <Routes>
           <Route path="/" element={<HomePage/>} />
-
+          <Route path="/imc" element={<IMC/>} />
+          <Route path="/age" element={<Page/>} />
+          <Route path="/reloj" element={<Reloj/>}/>
+          <Route path="/about" element={<AboutMePage/>}/>
+          <Route path="/contact" element={<ContactPage/>}/>
         </Routes>
       </Router>
       

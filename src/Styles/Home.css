@@ -4,23 +4,50 @@
 	font-size: 48px;
 	line-height: 72px;
 	align-items: center;
-    letter-spacing: -0.015em;
-    margin-top: 8%;
+	letter-spacing: -0.015em;
+	margin-top: 8%;
+}
+
+.text-home-p {
+	font-size: 36px;
+	letter-spacing: -0.015em;
+	text-align: center;
+	font-family: "Montserrat";
+	margin-top: 8%;
+	margin-bottom: -10%;
+}
+
+.box-home {
+	width: 60%;
+	text-align: center;
+	margin: 0px auto;
 }
 
 
-.text-home-p{
-    font-size: 36px;
-    letter-spacing: -0.015em;
-    text-align: center;
-    font-family: "Montserrat";
-    margin-top: 8%;
-    margin-bottom: -10%;
+@media screen and (max-width: 980px) {
+	.text-home {
+		font-family: "Montserrat";
+		font-size: 40px;
+		line-height: 72px;
+		align-items: center;
+		letter-spacing: -0.015em;
+		margin-top: 25%;
+	}
+	.text-home-p {
+		font-size: 29px;
+		letter-spacing: -0.015em;
+		text-align: justify;
+		margin-top: 8%;
+		margin-bottom: -10%;
+	}
+
+	.box-home {
+		width: 60%;
+		text-align: center;
+		margin: 0px auto;
+        margin-bottom: -20%;
+	}
+
+	
 }
 
-.box-home{
-
-    width: 60%;
-    text-align:center;
-    margin:0px auto;
-}
